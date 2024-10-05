@@ -10,7 +10,7 @@ console.log(decimalsTo23.length);
 
 
 console.log("Made shifty from decimalsTo23 to shift 3 and pop once to remove 4 elements total:");
-const shifty = decimalsTo23
+const shifty = decimalsTo23;
 const removed = shifty.splice(0,3);
 console.log("shifty:");
 console.log(shifty);
