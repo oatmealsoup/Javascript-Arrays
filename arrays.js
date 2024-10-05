@@ -10,7 +10,7 @@ console.log(decimalsTo23.length);
 
 
 console.log("Made shifty with 4 elements to shift 3 and pop once, removing 4 elements total, to hopefully add them back");
-const shifty = [0,1,2,3];
+array shifty = [0,1,2,3];
 const removed = shifty.splice(0,3);
 console.log("shifty:");
 console.log(shifty);
@@ -48,7 +48,7 @@ return true;  
 }
 const primeNumbers = decimalsTo23.filter(isPrime);
 console.log("Prime number array:");
-console.log(primeNumbers)
+console.log(primeNumbers);
 
 
 const evenNumbers = decimalsTo23.filter(number => number % 2 === 0);
