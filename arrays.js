@@ -25,11 +25,9 @@ const taken = removed.concat(popped);
 console.log("taken:");
 console.log(taken);
 console.log("unshift(2,1,0)");
-shifty.unshift(0,1,2);
+shifty.unshift(0,1,2,3);
 console.log(shifty);
-shifty.splice(23,0,23);
-console.log("shifty.splice(23,0,23)");
-console.log(shifty);
+
 
 
 function isPrime(number) {
