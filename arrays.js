@@ -9,8 +9,8 @@ console.log("Cardinality of the decimalsTo23 using decimalsTo23.length:");
 console.log(decimalsTo23.length);
 
 
-console.log("Made shifty from decimalsTo23 to shift 3 and pop once to remove 4 elements total:");
-const shifty = decimalsTo23;
+console.log("Made shifty with 4 elements to shift 3 and pop once, removing 4 elements total, to hopefully add them back");
+const shifty = [A,B,C,D];
 const removed = shifty.splice(0,3);
 console.log("shifty:");
 console.log(shifty);
