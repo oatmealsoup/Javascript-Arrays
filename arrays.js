@@ -24,7 +24,7 @@ console.log(popped);
 const taken = removed.concat(popped);
 console.log("taken:");
 console.log(taken);
-console.log("unshift(2,1,0)");
+console.log("unshift(0,1,2,3)");
 shifty.unshift(0,1,2,3);
 console.log(shifty);
 
